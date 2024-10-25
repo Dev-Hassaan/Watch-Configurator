@@ -1,0 +1,44 @@
+.tab-content {
+    & .header {
+        text-transform: uppercase;
+        h4 {
+
+            font-weight: 600;
+        }
+        h6 {
+            color: #dbd2c6; 
+            font-size: 0.7rem !important;
+            margin-bottom: .25rem;
+        }
+    }
+    & .watch-textures {
+        display: flex;
+        gap: 5px;
+        overflow-x: scroll;
+        & .watch-icon {
+            --icon-size:35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: var(--icon-size);
+            height: var(--icon-size);
+            border-radius: var(--icon-size);
+            padding: 2px;
+            border: 2px solid transparent;
+            transition: 1s;
+            img {width: 100%; height: 100%; border-radius: var(--icon-size); object-fit: cover;}
+        }
+        & .watch-icon.active {
+            border: 2px solid #dbd2c6;
+        }
+    }
+    & .watch-textures::-webkit-scrollbar {width: 0;}
+}
+
+.tab-btn {
+    display: flex;
+    justify-content: space-between;
+    & .btn {
+        width: 40%;
+    }
+}
