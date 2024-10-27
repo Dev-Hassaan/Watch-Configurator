@@ -3,6 +3,7 @@ import './style.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import $ from 'jquery'
 import * as bootstrap from 'bootstrap'
+import SnedPostMessage from './src/js/PostMessage'
     
 $(".watch-isActive").on("click", function() {
     $('.watch-isActive').removeClass("active")
