@@ -46,3 +46,6 @@ iframe {
         opacity: 1;
     }
 }
+.accordion-button{
+font-size: 0.8rem;
+}
