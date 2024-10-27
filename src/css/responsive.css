@@ -15,13 +15,13 @@
         height: 100%;
     }
     .watch-ui {
-        width: 420px;
+        width: 720px;
         height: 100%;
     }
     .watch-config-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         padding-inline:40px;
         height: 100%;
     }
