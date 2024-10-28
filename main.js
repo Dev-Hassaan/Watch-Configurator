@@ -4,40 +4,18 @@ import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import $ from 'jquery'
 import * as bootstrap from 'bootstrap'
 import SnedPostMessage from './src/js/PostMessage'
+import StateHandler from './src/js/StateHandler'
     
-$(".watch-isActive").on("click", function() {
-    $('.watch-isActive').removeClass("active")
-    $(this).addClass("active")
-})
 
-// var currentIndex = $(".tab-content").length - $(".tab-content").length
-// $(".tab-content").eq(currentIndex).show()
-// $("#pre_tab").on("click", function() {
-
-//     $(".tab-content").hide()
-    
-//     currentIndex += 1
-
-//     if (currentIndex < 0) {
-//         currentIndex = $(".tab-content").length - 1 
-//     } else if ( currentIndex > $(".tab-content").length - 1) {
-//         currentIndex = 0
-//     }
-
-//     $(".tab-content").eq(currentIndex).show()
-
-// })
-// $("#next_tab").on("click", function() {
-//     $(".tab-content").hide()
-    
-//     currentIndex -= 1
-
-//     if (currentIndex < 0) {
-//         currentIndex = $(".tab-content").length - 1 
-//     } else if ( currentIndex > $(".tab-content").length - 1) {
-//         currentIndex = 0
-//     }
-
-//     $(".tab-content").eq(currentIndex).show()
-
-// })
+StateHandler(".watch-icon-1", "click")
+StateHandler(".watch-icon-2", "click")
+StateHandler(".watch-icon-3", "click")
+StateHandler(".watch-icon-4", "click")
+StateHandler(".watch-icon-5", "click")
+StateHandler(".watch-icon-6", "click")
+StateHandler(".watch-icon-7", "click")
+StateHandler(".watch-icon-8", "click")
+StateHandler(".watch-icon-9", "click")
+StateHandler(".watch-icon-10", "click")
+StateHandler(".watch-icon-11", "click")
+StateHandler(".watch-icon-12", "click")
