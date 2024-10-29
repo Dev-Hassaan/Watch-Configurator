@@ -49,3 +49,6 @@ iframe {
 .accordion-button{
 font-size: 0.8rem;
 }
+.watch-textures{
+    flex-wrap: wrap;
+}
