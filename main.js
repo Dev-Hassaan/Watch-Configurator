@@ -18,4 +18,12 @@ StateHandler(".watch-icon-8", "click")
 StateHandler(".watch-icon-9", "click")
 StateHandler(".watch-icon-10", "click")
 StateHandler(".watch-icon-11", "click")
-StateHandler(".watch-icon-12", "click")
+// StateHandler(".watch-icon-12", "click")
+
+$(".watch-ui").hide()
+window.addEventListener('message', (event) => {
+    if (event.data == 'app:ready') {
+        // Update the 3D model based on received data
+        $(".watch-ui").show()
+    }
+});
