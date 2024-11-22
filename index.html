@@ -6,14 +6,14 @@
   <link rel="icon" type="image/svg+xml" href="/Watch-Configurator/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Watch Configurator</title>
-  <script type="module" crossorigin src="/Watch-Configurator/assets/index-DNN9Z0x1.js"></script>
-  <link rel="stylesheet" crossorigin href="/Watch-Configurator/assets/index-DqLfEA03.css">
+  <script type="module" crossorigin src="/Watch-Configurator/assets/index-C7UMjawA.js"></script>
+  <link rel="stylesheet" crossorigin href="/Watch-Configurator/assets/index-Bex5gp8X.css">
 </head>
 
 <body>
   <div class="main-container">
     <div class="iframe-container">
-      <iframe src="https://playcanv.as/e/p/tiuz0khC/" frameborder="0"></iframe>
+      <iframe id="app" src="https://playcanv.as/e/p/tiuz0khC/" frameborder="0"></iframe>
     </div>
     <div class="watch-ui px-lg-0 px-3">
       <div class="watch-config-container" id="Watch_Tabs_Container">
@@ -34,9 +34,9 @@
                     <h4>MOVEMENT</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-1" ><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Movement_Skeleton_Black.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-1"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Movement_Skeleton.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-1"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-1" id="MOVEMENT:1" ><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Movement_Skeleton_Black.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-1" id="MOVEMENT:2"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Movement_Skeleton.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-1" id="MOVEMENT:3"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -58,9 +58,8 @@
                     <h4>WATCH CASE</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-2"><img src="/Watch-Configurator/Watch_Textures\RedGold_WildONE_15b1495c-634f-4f15-8893-9137ca06784a.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-2"><img src="/Watch-Configurator/Watch_Textures\RedGold_WildONE_0045d3e7-1637-41c7-82bb-6e50b4cd9315.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-2"><img src="/Watch-Configurator/Watch_Textures\WhiteGold_WildONE_8a747c82-35c2-4105-9f83-2c4ba96841c9.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-2" id="WATCH-CASE:1"><img src="/Watch-Configurator/Watch_Textures\RedGold_WildONE_0045d3e7-1637-41c7-82bb-6e50b4cd9315.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-2" id="WATCH-CASE:2"><img src="/Watch-Configurator/Watch_Textures\WhiteGold_WildONE_8a747c82-35c2-4105-9f83-2c4ba96841c9.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -76,15 +75,27 @@
             </h2>
             <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#watchConfiguratorAccordion">
               <div class="accordion-body">
-                <div class="tab-content mb-3" id="tab_2">
+                <div class="tab-content mb-4" id="tab_2">
                   <div class="header">
                     <h6>Choose your</h6>
                     <h4>SHOCK ABSORBER</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-3"><img src="/Watch-Configurator/Watch_Textures\Sand_Rubber_WildONE.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-3"><img src="/Watch-Configurator/Watch_Textures\Red_Rubber_WildONE.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-3"><img src="/Watch-Configurator/Watch_Textures\Grey_Rubber_WildONE_f479b5d9-6f89-47c4-a358-e23e304d04d8.webp" alt=""></div>
+
+
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#d7c3b1"><img src="/Watch-Configurator/Watch_Textures\Sand_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#c62d43"><img src="/Watch-Configurator/Watch_Textures\Red_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#dcdcdc"><img src="/Watch-Configurator/Watch_Textures\White_Rubber_WildONE_e81a1585-d120-4797-8b7e-55b36967e015.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#01d8d6"><img src="/Watch-Configurator/Watch_Textures\Turquoise_Rubber_WildONE_14c18c33-c0c0-458d-8b1a-0f68fcb06c87.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#6e745e"><img src="/Watch-Configurator/Watch_Textures\Khaki_Rubber_WildONE_0b67d56e-c674-4b33-b218-c2d84127b021.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#70b24c"><img src="/Watch-Configurator/Watch_Textures\Gecko_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#11616d"><img src="/Watch-Configurator/Watch_Textures\Emerald_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#e2543d"><img src="/Watch-Configurator/Watch_Textures\Coral_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#054770"><img src="/Watch-Configurator/Watch_Textures\Blue_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#000000"><img src="/Watch-Configurator/Watch_Textures\Black_Rubber_WildONE_61db6d3a-d7c3-4383-8379-6fdac87e4ea5.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#393939"><img src="/Watch-Configurator/Watch_Textures\Anthracite_Rubber_WildONE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-3" id="SHOCK-ABSORBER:#dcdcdc"><img src="/Watch-Configurator/Watch_Textures\White_Rubber_WildONE_e81a1585-d120-4797-8b7e-55b36967e015.webp" alt=""></div>
+                   
                   </div>
                 </div>
               </div>
@@ -106,9 +117,18 @@
                     <h4>DIAL</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-4"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Dial_LaserCut_Blue_5N.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-4"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Dial_LaserCut_Gneiss_5N.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-4"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_LaserCut_SilverGneiss_5N_V3.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:1"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Dial_LaserCut_Blue_5N.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:2"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_LaserCut_Blue_RH-MC_Z47Pf.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:3"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_LaserCut_Gneiss_RH-MMjv8lJZ.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:4"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_LaserCut_Gneiss_5N-Dm3SvGOE.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:5"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_LaserCut_SilverGneiss_5N_V3.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:6"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_LaserCut_SilverGneiss_RH_V3%20(1)-BtrXKMc_.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:7"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_LaserCut_Green_RH.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:8"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_LaserCut_Green_RH.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:9"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_Skeleton_Anthracite_5N_db909656-f788-4274-bdc7-71d04533f7c2-RdON1ZR6.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:10"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_Skeleton_Anthracite_RH_51b1ff0e-3db3-46a9-b807-2a022503090c-9CH7s9_D.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:11"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_Skeleton_Silver_5N_V2-CGblpMVm.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-4" id="DIAL:12"><img src="/Watch-Configurator/assets/NNQ3000_WO_Configurator_Dial_Skeleton_Silver_RH_V2-C2_lUH-R.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -130,9 +150,9 @@
                     <h4>HANDS</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-5"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Hands_5N.webp" alt=""></div>
-                    <div class="watch-icon watch-isActivewatch-icon-5"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Hands_RH_Coral.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-5"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Hands_RH.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-5" id="HANDS:1"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Hands_5N.webp" alt=""></div>
+                    <div class="watch-iconwatch-icon-5" id="HANDS:2"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Hands_RH_Coral.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-5" id="HANDS:3"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Hands_RH.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -154,9 +174,10 @@
                     <h4>CRYSTAL</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-5"><img src="/Watch-Configurator/Watch_Textures\Brown_NORTEQ_WildONE_6c581e2d-6af5-45fb-9e0f-a03442ac4dd6.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-5"><img src="/Watch-Configurator/Watch_Textures\Burgundy_NORTEQ_WildONE_63486a1f-3780-4a0e-b963-b4934a2b9b3d.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-5"><img src="/Watch-Configurator/Watch_Textures\Brown_NORTEQ_WildONE_80ebb236-f4f9-471f-ab54-dd613de9ae91.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-6" id="CRYSTAL:1"><img src="/Watch-Configurator/Watch_Textures\Brown_NORTEQ_WildONE_6c581e2d-6af5-45fb-9e0f-a03442ac4dd6.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-6" id="CRYSTAL:2"><img src="/Watch-Configurator/Watch_Textures\Burgundy_NORTEQ_WildONE_63486a1f-3780-4a0e-b963-b4934a2b9b3d.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-6" id="CRYSTAL:3"><img src="/Watch-Configurator/Watch_Textures\Brown_NORTEQ_WildONE_80ebb236-f4f9-471f-ab54-dd613de9ae91.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-6" id="CRYSTAL:4"><img src="/Watch-Configurator/assets/Grey_NORTEQ_WildONE_1871b7c2-4bee-4c79-8c3a-8e0678cb7f38-C6zdDm42.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -178,9 +199,10 @@
                     <h4>BEZEL</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-6"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_Skeleton_Silver_5N_V2.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-6"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_Skeleton_Silver_RH_V2.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-6"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_Skeleton_Black_RH.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-7" id="BEZEL:1"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_Skeleton_Silver_5N_V2.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-7" id="BEZEL:2"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_Skeleton_Silver_RH_V2.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-7" id="BEZEL:3"><img src="/Watch-Configurator/Watch_Textures\NNQ3000_WO_Configurator_Dial_Skeleton_Black_RH.webp" alt=""></div>
+                    
                   </div>
                 </div>
               </div>
@@ -202,9 +224,9 @@
                     <h4>CROWN</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-8"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-8"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-8"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-8" id="CROWN:1"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-8" id="CROWN:2"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-8" id="CROWN:3"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -226,9 +248,8 @@
                     <h4>CASE BACK</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-9"><img src="/Watch-Configurator/Watch_Textures\textAndImage.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-9"><img src="/Watch-Configurator/Watch_Textures\textOnly_28ac10f6-4a06-4185-a48d-f98b98e56a03.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-9"><img src="/Watch-Configurator/Watch_Textures\textAndImage.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-9" id="CASE-BACK:1"><img src="/Watch-Configurator/Watch_Textures\textAndImage.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-9" id="CASE-BACK:2"><img src="/Watch-Configurator/Watch_Textures\textOnly_28ac10f6-4a06-4185-a48d-f98b98e56a03.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -250,9 +271,18 @@
                     <h4>STRAP</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-10"><img src="/Watch-Configurator/Watch_Textures\Turquoise_Rubber_WildONE_183f40b1-b3c1-4a10-8f70-5c63f1039484.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-10"><img src="/Watch-Configurator/Watch_Textures\White_Rubber_WildONE_586ac779-1250-4a2a-b6a5-1a3d153fadc9.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-10"><img src="/Watch-Configurator/Watch_Textures\Turquoise_Rubber_WildONE_183f40b1-b3c1-4a10-8f70-5c63f1039484.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:1"><img src="/Watch-Configurator/Watch_Textures\Turquoise_Rubber_WildONE_183f40b1-b3c1-4a10-8f70-5c63f1039484.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:2"><img src="/Watch-Configurator/Watch_Textures\White_Rubber_WildONE_586ac779-1250-4a2a-b6a5-1a3d153fadc9.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:3"><img src="/Watch-Configurator/assets/Khaki_Rubber_WildONE_10f6233d-a27f-47fd-bed1-5f608b4bbae2-B4OHmqvO.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:4"><img src="/Watch-Configurator/assets/Emerald_Rubber_WildONE_1a4e8839-62dc-41c0-bde6-61b9e270c4ec-bWxo0C78.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:5"><img src="/Watch-Configurator/assets/Green_Rubber_WildONE_5b8d0087-75c8-4198-9ab3-bf7500b75a89-B1I870ci.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:6"><img src="/Watch-Configurator/assets/Red_Rubber_WildONE_b14fc4a4-77c2-4503-8005-49cc7264a5f0-DWetyA2N.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:7"><img src="/Watch-Configurator/assets/Anthracite_Rubber_WildONE_f46227cf-7629-4ba1-a158-5ac060b7b0fc-B66uayeL.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:8"><img src="/Watch-Configurator/assets/Black_Rubber_WildONE_6838a019-87b7-4c02-bcc0-2bb0d64b4705-PQNfiyu-.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:9"><img src="/Watch-Configurator/assets/Blue_Rubber_WildONE_362cb46e-7e99-4fa5-8e17-30084527d3b3-BU_iSTfI.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:10"><img src="/Watch-Configurator/assets/Coral_Rubber_WildONE_cbf09500-b349-4f50-b6a5-792b0e5df5ae-Cm75YroO.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:11"><img src="/Watch-Configurator/assets/Emerald_Rubber_WildONE_1a4e8839-62dc-41c0-bde6-61b9e270c4ec-bWxo0C78.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-10" id="STRAP:12"><img src="/Watch-Configurator/assets/Gecko_Rubber_WildONE_c2ab213b-faea-411c-8843-9fdf3cf37beb-B_3jwz9F.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -275,9 +305,9 @@
                   </div>
                   <div class="watch-textures">
                     
-                    <div class="watch-icon watch-isActive watch-icon-11"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-11"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-11"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-11" id="BRACELET:1"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-11" id="BRACELET:2"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-11" id="BRACELET:3"><img src="/Watch-Configurator/Watch_Textures/NNQ3000_WO_Configurator_Movement_Kenissi.webp" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -299,9 +329,12 @@
                     <h4>BUCKLE</h4>
                   </div>
                   <div class="watch-textures">
-                    <div class="watch-icon watch-isActive watch-icon-12"><img src="/Watch-Configurator/Watch_Textures\NORQAIN_Buckle_WildONE_5N.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-12"><img src="/Watch-Configurator/Watch_Textures\NORQAIN_Buckle_WildONE_NORTEQ_Black.webp" alt=""></div>
-                    <div class="watch-icon watch-isActive watch-icon-12"><img src="/Watch-Configurator/Watch_Textures\NORQAIN_Buckle_WildONE_NORTEQ_Brown_dc8b59da-4ac3-4404-bfa9-c08f6ebea540.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-12" id="BUCKLE:1"><img src="/Watch-Configurator/Watch_Textures\NORQAIN_Buckle_WildONE_5N.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-12" id="BUCKLE:2"><img src="/Watch-Configurator/Watch_Textures\NORQAIN_Buckle_WildONE_NORTEQ_Black.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-12" id="BUCKLE:3"><img src="/Watch-Configurator/assets/NORQAIN_Buckle_WildONE_NORTEQ_Burgundy-BPe7tJT1.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-12" id="BUCKLE:4"><img src="/Watch-Configurator/assets/NORQAIN_Buckle_WildONE_NORTEQ_Brown_dc8b59da-4ac3-4404-bfa9-c08f6ebea540-C_CH_KIp.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-12" id="BUCKLE:5"><img src="/Watch-Configurator/assets/NORQAIN_Buckle_WildONE_WhiteGold-DeLE_2lD.webp" alt=""></div>
+                    <div class="watch-icon watch-icon-12" id="BUCKLE:6"><img src="/Watch-Configurator/Watch_Textures\NORQAIN_Buckle_WildONE_NORTEQ_Brown_dc8b59da-4ac3-4404-bfa9-c08f6ebea540.webp" alt=""></div>
                   </div>
                 </div>
               </div>
